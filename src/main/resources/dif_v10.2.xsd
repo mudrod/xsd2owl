@@ -353,11 +353,11 @@ History:
                 | DIF 9       | ECHO 10        | UMM           | DIF 10        | Notes                                        |
                 | ------------| -------------- | ------------- | ------------  | -------------------------------------------- |
                 | Personnel   | ContactPerson  | ContactPerson | Contact_Group | Added                                        |
-                |                                                                                                             |
-                | > Last_Name | > LastName     | > LastName    | > Name        | Just map to last name                        |
-                | > Address   | > Address      | > Address     | > Address     |                                              |
-                | > Phone     | > Phone        | > Phone       | > Phone       | Fax and Phon in DIF 9 merged with Phone type |
-                | > Email     | > Email        | > Email       | > Email       |                                              |
+                |             |                |               |               |                                              |
+                | Last_Name   | LastName       | LastName      | Name          | Just map to last name                        |
+                | Address     | Address        | Address       | Address       |                                              |
+                | Phone       | Phone          | Phone         | Phone         | Fax and Phon in DIF 9 merged with Phone type |
+                | Email       | Email          | Email         | Email         |                                              |
                 
             </xs:documentation>
         </xs:annotation>
